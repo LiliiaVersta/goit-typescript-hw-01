@@ -1,2 +1,3 @@
-let person: Person = ["Max", 21];
-type Person = [name: string, age: number];
+let person: [string, number];
+person = ["Max", 21];
+export {};
